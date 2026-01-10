@@ -4,7 +4,7 @@ import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Session Report Viewer" },
+    { title: "SessionView" },
     {
       name: "description",
       content: "View gemify session reports from GitHub repos",
@@ -50,7 +50,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center p-8 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-xl w-full">
         <h1 className="text-4xl font-bold text-center mb-2 text-gray-900 dark:text-gray-100">
-          Session Report Viewer
+          SessionView
         </h1>
         <p className="text-center text-gray-600 dark:text-gray-400 mb-8">
           View gemify session reports from any public GitHub repository
